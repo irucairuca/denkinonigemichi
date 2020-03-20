@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*全体の設定*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+      margin: 0 auto;
+    color:white;
+    
+  
+  
+  
+}
+
+
+
+
+
+
+/*ナビゲーションの装飾*/
+header{width:100%;
+    height:60px;
+    z-index: 3;
+  }
+ul{
+    background: #37bd82;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+ul li a::after {
+ 
+    margin-left: 10px;
+    vertical-align: middle;
+}
+ul li a:hover {
+    background: #2c9869;
+}
+
+
+
+
+
+body{
+   background:#E2D0BC;
+    margin:0 auto;
+     
+    
+}
+
+.haikei {
+    background:url("../img/haikei1.jpg") center bottom no-repeat;
+    background-size:cover;
+    position:relative;
+    top:5%;
+    left:5%;
+    margin:auto;
+    padding-bottom:1000px;
+}
+
+ 
+
+.text-box{
+    font-family:"游明朝",YuMincho,serif;
+    width:60%;
+    padding:4%;
+    background:transparent;
+  
+}
+
+.twitter{
+    width:25%;
+    height:auto;
+    border-radius:100%;
+    
+}
+
+
+ span{
+    color:#00acee;
+} 
+
