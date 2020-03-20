@@ -60,7 +60,7 @@ body{
 }
 
 .haikei {
-    background:url("../img/haikei1.jpg") center bottom no-repeat;
+    background:url("haikei1.jpg") center bottom no-repeat;
     background-size:cover;
     position:relative;
     top:5%;
