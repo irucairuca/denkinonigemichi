@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*全体の設定*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    color:black;
+    
+ 
+}
+
+
+
+
+
+
+/*ナビゲーションの装飾*/
+header{width:100%;
+    height:60px;
+    z-index: 3;
+  }
+header ul{
+    background:brown;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+ul li a::after {
+ 
+    margin-left: 10px;
+    vertical-align: middle;
+}
+ul li a:hover {
+    background: #2c9869;
+}
+
+body{
+    margin: 0 auto ;
+    background:chocolate;
+}
+
+section{
+background-color:darkorange; 
+
+ 
+}
+
+
+.twitter{
+    width:25%;
+    height:auto;
+    border-radius:100%;
+    
+}
+
+
+ spana{
+    color:#00acee;
+} 
+
+
+.youtube{
+    width:25%;
+    height:auto;
+    border-radius:100%;
+    
+}
+
+
+ spanb{
+    color:#c4302b;
+	 
+} 
+
+.icon{
+		background:transparent;
+	   
+}
+
