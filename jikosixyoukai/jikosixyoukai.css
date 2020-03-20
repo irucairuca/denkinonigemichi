@@ -4,6 +4,9 @@ color:red;
 }
 
 ul{
-    background-color:darkviolet
+    background-color:darkviolet;
     color:white;
+}
+li{
+    margin:15px;
 }
