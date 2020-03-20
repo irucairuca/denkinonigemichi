@@ -50,7 +50,7 @@ ul li a:hover {
 
 body{
     margin: 0 auto ;
-     background:url(../img/haikei%201sixyu.jpg)  center repeat; 
+     background:url(../img/haikeisixyu.jpg)  center repeat; 
     background-size:contain;
 }
 
@@ -68,7 +68,7 @@ section{
 
  ul li a:hover {
      
-     background:url(../img/choice.jpg)  center no-repeat;       
+     background:url(choice.jpg)  center no-repeat;       
      background-size:contain;
   
 }
